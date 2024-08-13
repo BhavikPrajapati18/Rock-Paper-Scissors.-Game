@@ -53,8 +53,8 @@ let Score = JSON.parse(localStorage.getItem('Score')) || {
 
    document.querySelector('.winRate').innerHTML=result;
     
-   document.querySelector('.moveSelected').innerHTML=` You <img class=" move-icon" src="images/${playermove}.png" >
-    <img class=" move-icon" src="images/${computerVal}.png" >Computer`;
+   document.querySelector('.moveSelected').innerHTML=` You <img class=" move-icon" src="${playermove}.png" >
+    <img class=" move-icon" src="${computerVal}.png" >Computer`;
   }
 
     function computerValMoves () {
